@@ -18,7 +18,7 @@ dependencies {
     // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api
     implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.24.3'
 
-    implementation group: 'com.google.guava', name: 'guava', version: '31.0.3-jre'
+    implementation group: 'com.google.guava', name: 'guava', version: '33.1.0-jre'
 
 
 
@@ -29,6 +29,8 @@ application {
 }
 
 jar {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+
     manifest {
         attributes(
                 'Main-Class': 'org.example.ComputerShopMain'
