@@ -5,6 +5,9 @@
       <module name="lab2" target="17" />
       <module name="lab2.main" target="17" />
       <module name="lab2.test" target="17" />
+      <module name="lab3" target="17" />
+      <module name="lab3.main" target="17" />
+      <module name="lab3.test" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
